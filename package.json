@@ -1,0 +1,24 @@
+{
+	"name": "word-bomb",
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "webpack ./dist/index.js --output-path ./dist --watch --mode=development & tsc -w & sass src/:dist/ -w",
+		"serve": "node ./dist/server/app.js",
+		"gen": "tsc; node ./dist/scripts/genWordlist.js; node ./dist/scripts/genParts.js"
+	},
+	"dependencies": {
+		"@tweenjs/tween.js": "^23.1.1",
+		"express": "^4.19.2",
+		"mithril": "^2.2.2",
+		"socket.io": "^4.7.5",
+		"socket.io-client": "^4.7.5"
+	},
+	"devDependencies": {
+		"@types/express": "^4.17.21",
+		"@types/mithril": "^2.2.6",
+		"svg-inline-loader": "^0.8.2",
+		"typescript": "^5.4.5",
+		"webpack": "^5.91.0",
+		"webpack-cli": "^5.1.4"
+	}
+}
