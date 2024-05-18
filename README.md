@@ -1,3 +1,1 @@
-she word on my bomb till i window
-
 The avatar style [Fun Emoji](https://www.dicebear.com/styles/fun-emoji/) is a remix of: [Fun Emoji Set](https://www.figma.com/community/file/968125295144990435) by [Davis Uche](https://www.instagram.com/davedirect3/), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
